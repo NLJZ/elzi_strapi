@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "artist_photos",
+  "info": {
+    "singularName": "artist-photo",
+    "pluralName": "artist-photos",
+    "displayName": "Artist Photo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
